@@ -5,18 +5,18 @@
 |Michael Nicholas Kardono|312310568|TI.23.A.5|Pemograman Web 1|
 
 # Home
-![alt text](home.png)
+![alt text](screenshot/home.png)
 
 # About
-![alt text](about.png)
+![alt text](screenshot/about.png)
 
 # Contact
-![alt text](contact.png)
+![alt text](screenshot/contact.png)
 
-#form
-![alt text](form.png)
+# form
+![alt text](screenshot/form.png)
 
 # Data Tables
-![alt text](datatables.png)
+![alt text](screenshot/datatables.png)
 
 
