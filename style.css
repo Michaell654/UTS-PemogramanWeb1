@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: georgia;
+}
+
+body {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  /* padding: 20px 100px; */
+}
+
+.fade1,
+.fade2 {
+  content: "";
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #ff7e5f, #feb47b);
+  position: absolute;
+  top: -100px;
+  left: -20px;
+  filter: blur(150px);
+  z-index: -100;
+}
+
+.fade2 {
+  top: 350px;
+  left: 800px;
+  height: 450px;
+  width: 450px;
+  filter: blur(250px);
+}
+
+.port {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.port-left {
+  width: 350px;
+}
+
+.port-left h1 {
+  color: #f9fafb;
+  font-size: 35px;
+}
+
+.port-left h1 span:first-child {
+  background: linear-gradient(19deg, #00d9ff, #f70d0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.port-left h1 span.multi-text {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 35px;
+  background: linear-gradient(19deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+.port-left p {
+  color: #e5e5e5;
+  font-size: 12px;
+  margin: 20px 0 30px 0;
+  line-height: 18px;
+}
+
+.port-left button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  background: #f2672e;
+  color: #f9fafb;
+  border: 1px solid #f2672e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.port-left button:hover {
+  background: transparent;
+  color: #f2672e;
+}
+
+.port img {
+  width: 35%;
+  filter: contrast(1.1);
+}

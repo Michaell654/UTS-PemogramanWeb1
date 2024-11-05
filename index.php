@@ -20,8 +20,8 @@
 
     <!-- Header with Navbar -->
     <header>
-        <h1 class="text-center p-3">Dynamic Sites</h1>
         <?php include "includes/navbar.php"; ?>
+        <h1 class="text-center p-3">Dynamic Sites</h1>
     </header>
 
     <!-- konten -->
